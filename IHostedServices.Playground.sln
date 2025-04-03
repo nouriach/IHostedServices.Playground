@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5F198372-BE7F-4636-873E-64D5987D2A2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IHostedServices.Playground", "src\IHostedServices.Playground\IHostedServices.Playground.csproj", "{414AA510-3D1D-464B-970C-3A8B96C7995B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{414AA510-3D1D-464B-970C-3A8B96C7995B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414AA510-3D1D-464B-970C-3A8B96C7995B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414AA510-3D1D-464B-970C-3A8B96C7995B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414AA510-3D1D-464B-970C-3A8B96C7995B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{414AA510-3D1D-464B-970C-3A8B96C7995B} = {5F198372-BE7F-4636-873E-64D5987D2A2B}
+	EndGlobalSection
+EndGlobal
