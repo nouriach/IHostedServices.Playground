@@ -16,6 +16,8 @@ This app is using .NET 8.
 
 To monitor the code flow, run the app in debug mode and set breakpoints at key points of interest. The console logs will offer additional context.
 
+Once the app starts, the user can validate that the config variables have been set by hitting this endpoint: `/allowedOrigins`.
+
 ## Considerations 🤔
 
 `IHostedService` starts running during application startup but before the app is fully ready to handle requests. 
