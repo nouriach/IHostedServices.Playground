@@ -42,4 +42,17 @@ var app = builder.Build();
 
 app.UseCors("AllowedClientDomains");
 
+app.MapGet("/allowedOrigins", () =>
+{
+    var response = new
+    {
+        ConfigResultOne = Environment.GetEnvironmentVariable("AllowedOrigins__0"),
+        ConfigResultTwo = Environment.GetEnvironmentVariable("AllowedOrigins__1"),
+        ConfigResultThree = Environment.GetEnvironmentVariable("AllowedOrigins__2"),
+        ConfigResultFour = Environment.GetEnvironmentVariable("AllowedOrigins__3")
+    };
+
+    return Results.Ok(response);
+});
+
 app.Run();
