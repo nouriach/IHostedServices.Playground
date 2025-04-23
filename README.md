@@ -7,7 +7,7 @@ to dynamically retrieve and update allowed client domains from an external API.
 
 ## Read the article 📰
 
-> [Dynamic CORS Configuration in .NET Using IHostedService]()
+> [Dynamic CORS Configuration in .NET Using IHostedService](https://medium.com/the-tech-collective/dynamic-cors-configuration-in-net-using-ihostedservice-48af93d49711)
 
 ## User Instructions 🔖
 
